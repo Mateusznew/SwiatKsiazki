@@ -3,7 +3,9 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Begin Web Test
-    Open Browser  ${BROWSER}
+    Open Browser  about:blanck   ${BROWSER}
+    Maximize Browser Window
 
 
 End Web Test
+    Close Browser
